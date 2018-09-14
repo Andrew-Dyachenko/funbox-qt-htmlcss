@@ -1,5 +1,37 @@
+@import '~normalize.css';
+@import './fonts.css';
+
+:root {
+	--white: #fff;
+	--black: #000;
+	--body-bg: var(--white);
+	--body-color: var(--white);
+	--fs-base: 16px;
+	--gutter-width: 16px;
+	--global-padding: 16px;
+	--global-margin: 16px;
+	font-size: var(--fs-base);
+	height: 100%;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+	font-family: 'Exo 2.0', sans-serif;
+	background-color: var(--body-bg);
+	color: var(--body-color);
+	background-image: url(bg.png);
+	background-repeat: repeat;
+	background-position: 0;
+	height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 100;
+	text-shadow: 0 1px 0 var(--black);
+	font-size: 2.25rem;
+	font-weight: 400;
 }
