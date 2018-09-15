@@ -2,9 +2,12 @@
 @import './fonts.css';
 
 :root {
+	--s: 320px;
+	--m: 768px;
+	--l: 1024px;
 	--white: #fff;
 	--black: #000;
-	--body-bg: var(--white);
+	--body-bg: var(--black);
 	--body-color: var(--white);
 	--fs-base: 16px;
 	--gutter-width: 16px;
@@ -12,6 +15,14 @@
 	--global-margin: 16px;
 	font-size: var(--fs-base);
 	height: 100%;
+}
+
+#root {
+	height: 100%;
+}
+
+* {
+	box-sizing: border-box;
 }
 
 body {
@@ -22,6 +33,16 @@ body {
 	background-repeat: repeat;
 	background-position: 0;
 	height: 100%;
+	overflow: hidden;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: var(--l);
+}
+
+h1 {
+	font-size: 2.25rem;
 }
 
 h1,
@@ -30,8 +51,20 @@ h3,
 h4,
 h5,
 h6 {
+	margin-top: 0;
+	text-align: left;
 	font-weight: 100;
 	text-shadow: 0 1px 0 var(--black);
-	font-size: 2.25rem;
 	font-weight: 400;
+}
+
+@media (min-width: 320px) {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		text-align: center;
+	}
 }

@@ -1,0 +1,27 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: var(--global-padding);
+	overflow-x: hidden;
+}
+.App__container {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	width: 100%;
+}
+.App__data-component {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-grow: 1;
+}
+.App__main {
+	flex-grow: 1;
+}
