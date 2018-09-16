@@ -21,7 +21,7 @@ class App extends Component {
 				</Helmet>
 				<div className="container App__container">
 					<main className="main App__main">
-						<h1>Ты сегодня покормил кота?</h1>
+						<h1 className="main__title">Ты сегодня покормил кота?</h1>
 						<ProductsList />
 					</main>
 				</div>

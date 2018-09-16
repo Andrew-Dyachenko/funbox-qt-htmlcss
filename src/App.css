@@ -1,15 +1,14 @@
 .App {
-	display: flex;
-	flex-direction: column;
 	height: 100%;
-	padding: var(--global-padding);
 	overflow-x: hidden;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
 }
 .App__container {
 	display: flex;
 	flex-direction: column;
-	flex-grow: 1;
+	min-height: 100%;
 	width: 100%;
+	padding: var(--global-padding);
 }
 .App__data-component {
 	display: flex;
@@ -21,6 +20,9 @@
 	flex-direction: column;
 	justify-content: center;
 	flex-grow: 1;
+}
+.main__title {
+	margin: 6px 0;
 }
 .App__main {
 	flex-grow: 1;

@@ -2,6 +2,9 @@
 	display: flex;
 	justify-content: center;
 	list-style: none;
-	margin: 0;
+	margin: 0 calc(var(--global-margin) / -2);
 	padding: 0;
+}
+.products__item {
+	padding: var(--global-padding) calc(var(--global-padding) / 2);
 }

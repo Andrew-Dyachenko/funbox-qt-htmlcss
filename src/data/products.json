@@ -1,13 +1,17 @@
 [{
-	"preTitle": "Сказочное заморское яство",
+	"disabled": false,
+	"pretitle": "Сказочное заморское яство",
 	"title": "Нямушка",
-	"subTitle": "с фуа-гра",
+	"subtitle": "с фуа-гра",
 	"properties": [
 		"10 порций",
 		"мышь в подарок"
 	],
-	"weight": {
-		"value": 2,
-		"unit": "кг"
-	}
+	"modificator": "foie-gras",
+	"imageURL": "./images/cat.png",
+	"imageAlt": "Эмблема с котом",
+	"weightVal": "0,5",
+	"weightUnit": "кг",
+	"theme": "primary",
+	"thumbsay": "Чего сидишь? Порадуй котэ, <a href=\"#\">купи.</a>"
 }]

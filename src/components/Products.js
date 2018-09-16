@@ -7,7 +7,7 @@ const Products = ({data}) =>
 	<ol className="products">
 		{data.map((product, i) => {
 			return (
-				<li key={i}>
+				<li key={i} className="products__item">
 					<Product {...product} />
 				</li>
 			)

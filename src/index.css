@@ -14,6 +14,7 @@
 	--global-padding: 16px;
 	--global-margin: 16px;
 	--color-primary: #1698d9;
+	--color-razzmatazz: #d91667;
 	--color-concrete: #f2f2f2;
 	--color-dove-gray: #666;
 	font-size: var(--fs-base);
@@ -29,7 +30,7 @@
 }
 
 body {
-	font-family: "Trebuchet MS", sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background-color: var(--body-bg);
 	color: var(--body-color);
 	background-image: url(bg.png);
@@ -71,4 +72,17 @@ h6 {
 	h6 {
 		text-align: center;
 	}
+}
+
+a {
+	color: var(--color-primary);
+	text-decoration: none;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: 700;
+	border-bottom: 1px dashed var(--color-primary);
+}
+a:hover,
+a:active {
+	text-decoration: none;
+	border-bottom-color: transparent;
 }
