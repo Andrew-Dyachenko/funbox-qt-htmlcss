@@ -4,7 +4,7 @@
 :root {
 	--s: 320px;
 	--m: 768px;
-	--l: 1024px;
+	--l: 1120px;
 	--white: #fff;
 	--black: #000;
 	--body-bg: var(--black);
@@ -13,6 +13,9 @@
 	--gutter-width: 16px;
 	--global-padding: 16px;
 	--global-margin: 16px;
+	--color-primary: #1698d9;
+	--color-concrete: #f2f2f2;
+	--color-dove-gray: #666;
 	font-size: var(--fs-base);
 	height: 100%;
 }
@@ -26,7 +29,7 @@
 }
 
 body {
-	font-family: 'Exo 2.0', sans-serif;
+	font-family: "Trebuchet MS", sans-serif;
 	background-color: var(--body-bg);
 	color: var(--body-color);
 	background-image: url(bg.png);
@@ -56,6 +59,7 @@ h6 {
 	font-weight: 100;
 	text-shadow: 0 1px 0 var(--black);
 	font-weight: 400;
+	font-family: 'Exo 2.0', sans-serif;
 }
 
 @media (min-width: 320px) {

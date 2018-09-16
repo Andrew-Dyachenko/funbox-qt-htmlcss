@@ -1,10 +1,40 @@
 .product {
 	width: 343px;
 	height: 493px;
-	border: 1px solid lightseagreen;
 }
 .product__shape {
 	height: 100%;
-	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-	background-color: #fff;
+}
+.product__shape--1 {
+	clip-path: polygon(13.119533528% 0, 100% 0, 100% 100%, 0 100%, 0 9.127789047%);
+}
+.product__shape--2 {
+	background-color: var(--color-primary);
+	clip-path: inset(0 round 0 12px 12px 12px);
+	padding: 4px;
+}
+.product__shape--3 {
+	clip-path: polygon(13.119533528% 0, 100% 0, 100% 100%, 0 100%, 0 9.127789047%);
+}
+.product__shape--4 {
+	clip-path: inset(0 round 0 9px 9px 9px);
+	background-color: var(--color-concrete);
+	padding: 20px 13.119533528%;
+}
+.product__pretitle,
+.product__title,
+.product__subtitle {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-shadow: none;
+}
+.product__pretitle {
+	color: var(--color-dove-gray);
+	font-size: 1rem;
+	font-weight: 400;
+}
+.product__title {
+	color: var(--black);
+}
+.product__subtitle {
+	color: var(--black);
 }
