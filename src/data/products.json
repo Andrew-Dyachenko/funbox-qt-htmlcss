@@ -12,6 +12,41 @@
 	"imageAlt": "Эмблема с котом",
 	"weightVal": "0,5",
 	"weightUnit": "кг",
-	"theme": "primary",
-	"thumbsay": "Чего сидишь? Порадуй котэ, <a href=\"#\">купи.</a>"
+	"thumbsay": "Чего сидишь? Порадуй котэ, купи.",
+	"thumbsayReplace": "купи."
+},
+{
+	"disabled": false,
+	"pretitle": "Сказочное заморское яство",
+	"title": "Нямушка",
+	"subtitle": "с рыбой",
+	"properties": [
+		"40 порций",
+		"2 мыши в подарок"
+	],
+	"modificator": "foie-gras",
+	"imageURL": "./images/cat.png",
+	"imageAlt": "Эмблема с котом",
+	"weightVal": "2",
+	"weightUnit": "кг",
+	"thumbsay": "Головы щучьи с чесноком да свежайшая сёмгушка.",
+	"thumbsayReplace": ""
+},
+{
+	"disabled": true,
+	"pretitle": "Сказочное заморское яство",
+	"title": "Нямушка",
+	"subtitle": "с курой",
+	"properties": [
+		"100 порций",
+		"5 мышей в подарок",
+		"заказчик доволен"
+	],
+	"modificator": "foie-gras",
+	"imageURL": "./images/cat.png",
+	"imageAlt": "Эмблема с котом",
+	"weightVal": "5",
+	"weightUnit": "кг",
+	"thumbsay": "",
+	"thumbsayReplace": ""
 }]

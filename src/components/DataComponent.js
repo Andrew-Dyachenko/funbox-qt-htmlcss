@@ -34,7 +34,7 @@ const DataComponent = (ComposedComponent, url) =>
 		}
 		render() {
 			return (
-				<div className="data-component">
+				<div className='data-component'>
 					{(this.state.loading) ?
 					<Loader>Загрузка</Loader> :
 					<ComposedComponent {...this.state} />}
@@ -45,12 +45,12 @@ const DataComponent = (ComposedComponent, url) =>
 
 DataComponent.propTypes = {
 	ComposedComponent: PropTypes.element.isRequired,
-	url: PropTypes.string || null
+	url: PropTypes.string
 }
 
 DataComponent.defaultProps = {
 	ComposedComponent: () => <div>Composed component</div>,
-	url: null
+	url: ''
 }
 
 export default DataComponent

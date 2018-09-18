@@ -4,15 +4,18 @@ import './Products.css'
 import Product from './Product'
 
 const Products = ({data}) =>
-	<ol className="products">
-		{data.map((product, i) => {
-			return (
-				<li key={i} className="products__item">
-					<Product {...product} />
-				</li>
-			)
-		})}
-	</ol>
+	<form className='products'>
+		<ol className='products__list'>
+			{data.map((product, i) => {
+				const id = `products__item--${i}`
+				return (
+					<li key={i} className='products__item'>
+						<Product {...product} id={id} />
+					</li> 
+				)
+			})}
+		</ol>
+	</form>
 
 Products.propTypes = {
 	data: PropTypes.array.isRequired

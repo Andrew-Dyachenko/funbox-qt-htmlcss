@@ -14,14 +14,14 @@ const ProductsList =
 class App extends Component {
 	render() {
 		return (
-			<div className="App">
+			<div className='App'>
 				<Helmet>
-					<html lang="ru" />
+					<html lang='ru' />
 					<title>Нямушка</title>
 				</Helmet>
-				<div className="container App__container">
-					<main className="main App__main">
-						<h1 className="main__title">Ты сегодня покормил кота?</h1>
+				<div className='container App__container'>
+					<main className='main App__main'>
+						<h1 className='main__title'>Ты сегодня покормил кота?</h1>
 						<ProductsList />
 					</main>
 				</div>
