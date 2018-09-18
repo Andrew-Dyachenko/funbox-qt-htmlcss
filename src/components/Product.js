@@ -62,13 +62,6 @@ class Product extends Component {
 			thumbsayReplace,
 			weightVal,
 			weightUnit} = this.props
-		
-		let thumbsayReplaceREXP
-
-		if (thumbsayReplace) {
-			thumbsayReplaceREXP = new RegExp(thumbsayReplace.replace('.', '\\.?'), 'igm')
-		}
-		console.log('thumbsayReplace: ', thumbsayReplace, '\n', 'thumbsayReplaceREXP: ', thumbsayReplaceREXP)
 			
 		return (
 			<div
