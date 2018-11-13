@@ -1,4 +1,5 @@
-# Performed test task from the company Fanbox
+# Performed test task from Funbox company
+Test itself: [https://dl.fun-box.ru/qt-htmlcss.zip](https://dl.fun-box.ru/qt-htmlcss.zip)
 
 ## Result
 [http://funbox-qt-htmlcss.tech/](http://funbox-qt-htmlcss.tech/)
